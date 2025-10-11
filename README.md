@@ -27,12 +27,12 @@ Execute the program using runserver command.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Slot Time Table - jayachandra v</title>
+    <title>Slot Time Table - G.santhiya(25017564) v</title>
 </head>
 <body>
     <IMG SRC="Screenshot 2025-10-05 091919.png"HEIGHT="150"WIDTH="500"BORDER=6>
     <h2>Saveetha Engineering College</h2>
-    <h3>SLOT TIME TABLE - jayachandra v</h3>
+    <h3>SLOT TIME TABLE - G.santhiya(25017564) v</h3>
 
     <table border="1">
         <tr BGCOLOR="YELLOW">
