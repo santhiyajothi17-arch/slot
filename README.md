@@ -27,202 +27,95 @@ Execute the program using runserver command.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Slot Timetable</title>
+    <title>Slot Time Table - jayachandra v</title>
 </head>
 <body>
-    <center>
-        <img src="/static/logo.png" height="100" width="540">
-    </center>
+    <IMG SRC="Screenshot 2025-10-05 091919.png"HEIGHT="150"WIDTH="500"BORDER=6>
+    <h2>Saveetha Engineering College</h2>
+    <h3>SLOT TIME TABLE - jayachandra v</h3>
 
-    <!-- Timeplan -->
-    <table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
-        <caption><b>SLOT TIME TABLE - Bhavitra B (25012160)</b></caption>
-        <tr align="center">
-            <th bgcolor="yellow">Day/Time</th>
-            <th bgcolor="yellow">Monday</th>
-            <th bgcolor="yellow">Tuesday</th>
-            <th bgcolor="yellow">Wednesday</th>
-            <th bgcolor="yellow">Thursday</th>
-            <th bgcolor="yellow">Friday</th>
+    <table border="1">
+        <tr BGCOLOR="YELLOW">
+            <th>Day/Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
         </tr>
-
-        <!-- 8-10 -->
-        <tr align="center">
-            <th bgcolor="yellow">8-10</th>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">8-10</td>
+            <td></td>
+            <td>FWAD</td>
+            <td></td>
+            <td>C</td>
+            <td>ENG</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">10-12</td>
+            <td></td>
+            <td>FWAD</td>
+            <td></td>
+            <td>ENG</td>
+            <td>C</td>
+        </tr>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">12-1</td>
+            <td COLSPAN=5 ALIGN="CENTER">LUNCH</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">1-3</td>
+            <td></td>
+            <td>C</td>
+            <td>FWAD</td>
+            <td>S</td>
+            <td></td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">3-5</td>
             <td>FREE SLOT</td>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-            <td>FREE SLOT</td>
-            <td>DATA SCIENCE</td>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-        </tr>
-
-        <!-- 10-12 -->
-        <tr align="center">
-            <th bgcolor="yellow">10-12</th>
-            <td>PYTHON PROGRAMMING</td>
-            <td>DATA SCIENCE</td>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-            <td>PYTHON PROGRAMMING</td>
-            <td>DATA SCIENCE</td>
-        </tr>
-
-        <!-- 12-1 -->
-        <tr align="center">
-            <th bgcolor="yellow">12-1</th>
-            <td colspan="5">LUNCH BREAK</td>
-        </tr>
-
-        <!-- 1-3 -->
-        <tr align="center">
-            <th bgcolor="yellow">1-3</th>
-            <td>FREE SLOT</td>
-            <td>DATA SCIENCE</td>
-            <td>MENTOR MENTEE SESSION</td>
-            <td>FREE SLOT</td>
-            <td>DATA SCIENCE</td>
-        </tr>
-
-        <!-- 3-5 -->
-        <tr align="center">
-            <th bgcolor="yellow">3-5</th>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-            <td>PYTHON PROGRAMMING</td>
-            <td>PYTHON PROGRAMMING</td>
-            <td>PYTHON PROGRAMMING</td>
+            <td>ENG</td>
+            <td>C</td>
+            <td>C</td>
+            <td></td>
         </tr>
     </table>
 
-    <br><br>
-
-    <!-- Fagkoder og fagnavn -->
-    <table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="lightgrey">
-        <caption><b>SUBJECT DETAILS</b></caption>
-        <tr align="center">
-            <th>Sl.No</th>
+    <h3>Subjects</h3>
+    <table border="1">
+        <tr>
+            <th>S. No.</th>
             <th>Subject Code</th>
             <th>Subject Name</th>
         </tr>
-        <tr align="center">
+        <tr>
             <td>1.</td>
             <td>19AI414</td>
             <td>Fundamentals of Web Application Development (FWAD)</td>
         </tr>
-        <tr align="center">
+        <tr>
             <td>2.</td>
-            <td>19AI301</td>
-            <td>Python Programming(PP)</td>
+            <td>19EN612</td>
+            <td>Communicative English</td>
         </tr>
-        <tr align="center">
+        <tr>
             <td>3.</td>
-            <td>19AI403</td>
-            <td>DATA SCIEDNCE(DS)</td>
+            <td>19PH206</td>
+            <td>Fundamentals of C programming language</td>
         </tr>
-       
     </table>
 </body>
-</html>
+</html>``
 
+
+
+
+
+```
 
 ## OUTPUT
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Slot Timetable</title>
-</head>
-<body>
-    <center>
-        <img src="/static/logo.png" height="100" width="540">
-    </center>
-
-    <!-- Timeplan -->
-    <table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
-        <caption><b>SLOT TIME TABLE - Bhavitra B (25012160)</b></caption>
-        <tr align="center">
-            <th bgcolor="yellow">Day/Time</th>
-            <th bgcolor="yellow">Monday</th>
-            <th bgcolor="yellow">Tuesday</th>
-            <th bgcolor="yellow">Wednesday</th>
-            <th bgcolor="yellow">Thursday</th>
-            <th bgcolor="yellow">Friday</th>
-        </tr>
-
-        <!-- 8-10 -->
-        <tr align="center">
-            <th bgcolor="yellow">8-10</th>
-            <td>FREE SLOT</td>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-            <td>FREE SLOT</td>
-            <td>DATA SCIENCE</td>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-        </tr>
-
-        <!-- 10-12 -->
-        <tr align="center">
-            <th bgcolor="yellow">10-12</th>
-            <td>PYTHON PROGRAMMING</td>
-            <td>DATA SCIENCE</td>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-            <td>PYTHON PROGRAMMING</td>
-            <td>DATA SCIENCE</td>
-        </tr>
-
-        <!-- 12-1 -->
-        <tr align="center">
-            <th bgcolor="yellow">12-1</th>
-            <td colspan="5">LUNCH BREAK</td>
-        </tr>
-
-        <!-- 1-3 -->
-        <tr align="center">
-            <th bgcolor="yellow">1-3</th>
-            <td>FREE SLOT</td>
-            <td>DATA SCIENCE</td>
-            <td>MENTOR MENTEE SESSION</td>
-            <td>FREE SLOT</td>
-            <td>DATA SCIENCE</td>
-        </tr>
-
-        <!-- 3-5 -->
-        <tr align="center">
-            <th bgcolor="yellow">3-5</th>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-            <td>PYTHON PROGRAMMING</td>
-            <td>PYTHON PROGRAMMING</td>
-            <td>PYTHON PROGRAMMING</td>
-        </tr>
-    </table>
-
-    <br><br>
-
-    <!-- Fagkoder og fagnavn -->
-    <table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="lightgrey">
-        <caption><b>SUBJECT DETAILS</b></caption>
-        <tr align="center">
-            <th>Sl.No</th>
-            <th>Subject Code</th>
-            <th>Subject Name</th>
-        </tr>
-        <tr align="center">
-            <td>1.</td>
-            <td>19AI414</td>
-            <td>Fundamentals of Web Application Development (FWAD)</td>
-        </tr>
-        <tr align="center">
-            <td>2.</td>
-            <td>19AI301</td>
-            <td>Python Programming(PP)</td>
-        </tr>
-        <tr align="center">
-            <td>3.</td>
-            <td>19AI403</td>
-            <td>DATA SCIEDNCE(DS)</td>
-        </tr>
-       
-    </table>
-</body>
-</html>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/00435757-bb41-4f27-9a56-9abc568df9b6" />
 
 
 ## RESULT
