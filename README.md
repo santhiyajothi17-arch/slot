@@ -277,7 +277,8 @@ OUTPUT:
 </body>
 </html>
 OUTPUT:
-![WhatsApp Image 2025-10-12 at 15 27 26_d31da726](https://github.com/user-attachments/assets/3d8638e3-99b1-420c-bea2-01a4e81522e8)
+<img width="953" height="542" alt="image" src="https://github.com/user-attachments/assets/d5103a52-f8c9-4554-a513-a365e4ed4d24" />
+
 
 
 ## RESULT
