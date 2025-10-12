@@ -25,260 +25,111 @@ Execute the program using runserver command.
 
 ## PROGRAM
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
-    <title>Slot Time Table - santhiya g</title>
-</head>
-<body>
-    <IMG SRC="Screenshot 2025-10-05 091919.png"HEIGHT="150"WIDTH="500"BORDER=6>
-    <h2>Saveetha Engineering College</h2>
-    <h3>SLOT TIME TABLE - santhiya g</h3>
-
-    <table border="1">
-        <tr BGCOLOR="YELLOW">
-            <th>Day/Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">8-10</td>
-            <td></td>
-            <td>FWAD</td>
-            <td></td>
-            <td>C</td>
-            <td>ENG</td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">10-12</td>
-            <td></td>
-            <td>FWAD</td>
-            <td></td>
-            <td>ENG</td>
-            <td>C</td>
-        </tr>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">12-1</td>
-            <td COLSPAN=5 ALIGN="CENTER">LUNCH</td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">1-3</td>
-            <td></td>
-            <td>C</td>
-            <td>FWAD</td>
-            <td>S</td>
-            <td></td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">3-5</td>
-            <td>FREE SLOT</td>
-            <td>ENG</td>
-            <td>C</td>
-            <td>C</td>
-            <td></td>
-        </tr>
-    </table>
-
-    <h3>Subjects</h3>
-    <table border="1">
+    <title>Timetable</title>
+</head>            
+<title>Google <div class="Timetable"></div></title>
+    <body> 
+     <center> 
+     <img src="/logo.png" height="150" width="800">
+     </center>
+      <h3 align="center">  SLOT TIME TABLE - STUDENT NAME ( ROLL NO. ) </h3>
+        <table align="center" border="5" cellpadding="6" cellspacing="2" bgcolor="cyan">
         <tr>
-            <th>S. No.</th>
-            <th>Subject Code</th>
-            <th>Subject Name</th>
+          <th bgcolor="yellow">Day</th>    
+          <th bgcolor="yellow">8-10</th>
+          <th bgcolor="yellow">10-12</th>
+          <th bgcolor="yellow">12-1</th>
+          <th bgcolor="yellow">1-3</th>
+          <th bgcolor="yellow">3-5</th>
         </tr>
         <tr>
-            <td>1.</td>
-            <td>19AI414</td>
-            <td>Fundamentals of Web Application Development (FWAD)</td>
+           <th bgcolor="yellow">MONDAY </th>
+           <td>FREE SLOT  </td>
+           <td>WEB APP    </td>
+           <td rowspan="6">L<br>U<br>N<br>C<br>H </td>
+           <td>PYTHON     </td>
+           <td>FREE SLOT  </td>
         </tr>
         <tr>
-            <td>2.</td>
-            <td>19EN612</td>
-            <td>Communicative English</td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>19PH206</td>
-            <td>Fundamentals of C programming language</td>
-        </tr>
-    </table>
-</body>
+            <th bgcolor="yellow">TUESDAY  </th>
+            <td>FREE SLOT </td>
+            <td>STATISTICS</td>
+            <td>ENGLISH   </td>
+            <td>FREE SLOT </td>
+         </tr> 
+         <tr>
+            <th bgcolor="yellow">WEDNESDAY </th>
+            <td>FREE SLOT </td>
+            <td>FREE SLOT </td>
+            <td>MENTOR    </td>
+            <td>FREE SLOT </td>
+         </tr> 
+         <tr>
+            <th bgcolor="yellow">THURSDAY  </th>
+            <td>MACHINE   </td>
+            <td>STATISTICS</td>
+            <td>ENGLISH   </td>
+            <td>FREE SLOT </td>
+         </tr>
+          <tr>
+            <th bgcolor="yellow">FRIDAY    </th>
+            <td>MACHINE   </td>
+            <td>PYTHON    </td>
+            <td>C PROGRAM  </td>
+            <td>FREE SLOT </td>
+         </tr>
+         <tr>
+            <th bgcolor="yellow">SATURDAY  </th>
+            <td>STATISTICS</td>
+            <td>C PROGRAM  </td>
+            <td>FREE SLOT </td>
+            <td>WEB  APP  </td>
+         </tr>
+        </table>
+        <br> 
+        <table border="5" cellpadding="7" cellspacing="2" align="center">
+         <tr>
+           <th><h4>S.NO</h4></th>    
+           <th><h4>SUBJECT CODE </h4></th>
+           <th><h4>SUBJECT NAME </h4></th>
+         </tr>
+         <tr>
+            <th>1.</th>
+            <td>4S3-1</td>
+            <td>PYTHON PROGRAMMING  </td>
+         </tr>
+         <tr>
+             <th>2.</th>
+             <td>4V1-2</td>
+             <td>COMMUNICATION ENGLISH  </td>
+          </tr> 
+          <tr>
+             <th>3.</th>
+             <td>4I3-1</td>
+             <td>INTRODUCTION TO MACHINE LEARNING  </td>
+          </tr> 
+          <tr>
+             <th>4.</th>
+             <td>4L1-1</td>
+             <td>FUNDAMENDALS OF C PROGRAMMING  </td>
+          </tr>
+           <tr>
+             <th>5.</th>
+             <td>4M3-1</td>
+             <td>STATISTICS AND NUMERICALS METHODS  </td>
+          </tr>
+          <tr>
+             <th>6.</th>
+             <td>6J1-1</td>
+             <td>FUNDAMENDALS OF WEB APPLICATION DEVELOPMENT   </td>
+          </tr>
+         </table>   
+    </body>
 </html>
 OUTPUT:
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Slot Time Table - jayachandra v</title>
-</head>
-<body>
-    <IMG SRC="Screenshot 2025-10-05 091919.png"HEIGHT="150"WIDTH="500"BORDER=6>
-    <h2>Saveetha Engineering College</h2>
-    <h3>SLOT TIME TABLE - jayachandra v</h3>
-
-    <table border="1">
-        <tr BGCOLOR="YELLOW">
-            <th>Day/Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">8-10</td>
-            <td></td>
-            <td>FWAD</td>
-            <td></td>
-            <td>C</td>
-            <td>ENG</td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">10-12</td>
-            <td></td>
-            <td>FWAD</td>
-            <td></td>
-            <td>ENG</td>
-            <td>C</td>
-        </tr>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">12-1</td>
-            <td COLSPAN=5 ALIGN="CENTER">LUNCH</td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">1-3</td>
-            <td></td>
-            <td>C</td>
-            <td>FWAD</td>
-            <td>S</td>
-            <td></td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">3-5</td>
-            <td>FREE SLOT</td>
-            <td>ENG</td>
-            <td>C</td>
-            <td>C</td>
-            <td></td>
-        </tr>
-    </table>
-
-    <h3>Subjects</h3>
-    <table border="1">
-        <tr>
-            <th>S. No.</th>
-            <th>Subject Code</th>
-            <th>Subject Name</th>
-        </tr>
-        <tr>
-            <td>1.</td>
-            <td>19AI414</td>
-            <td>Fundamentals of Web Application Development (FWAD)</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>19EN612</td>
-            <td>Communicative English</td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>19PH206</td>
-            <td>Fundamentals of C programming language</td>
-        </tr>
-    </table>
-</body>
-</html>
-OUTPUT:
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Slot Time Table - jayachandra v</title>
-</head>
-<body>
-    <IMG SRC="Screenshot 2025-10-05 091919.png"HEIGHT="150"WIDTH="500"BORDER=6>
-    <h2>Saveetha Engineering College</h2>
-    <h3>SLOT TIME TABLE - jayachandra v</h3>
-
-    <table border="1">
-        <tr BGCOLOR="YELLOW">
-            <th>Day/Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">8-10</td>
-            <td></td>
-            <td>FWAD</td>
-            <td></td>
-            <td>C</td>
-            <td>ENG</td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">10-12</td>
-            <td></td>
-            <td>FWAD</td>
-            <td></td>
-            <td>ENG</td>
-            <td>C</td>
-        </tr>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">12-1</td>
-            <td COLSPAN=5 ALIGN="CENTER">LUNCH</td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">1-3</td>
-            <td></td>
-            <td>C</td>
-            <td>FWAD</td>
-            <td>S</td>
-            <td></td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">3-5</td>
-            <td>FREE SLOT</td>
-            <td>ENG</td>
-            <td>C</td>
-            <td>C</td>
-            <td></td>
-        </tr>
-    </table>
-
-    <h3>Subjects</h3>
-    <table border="1">
-        <tr>
-            <th>S. No.</th>
-            <th>Subject Code</th>
-            <th>Subject Name</th>
-        </tr>
-        <tr>
-            <td>1.</td>
-            <td>19AI414</td>
-            <td>Fundamentals of Web Application Development (FWAD)</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>19EN612</td>
-            <td>Communicative English</td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>19PH206</td>
-            <td>Fundamentals of C programming language</td>
-        </tr>
-    </table>
-</body>
-</html>
-OUTPUT:
-<img width="953" height="542" alt="image" src="https://github.com/user-attachments/assets/d5103a52-f8c9-4554-a513-a365e4ed4d24" />
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aaf9f31f-1e70-4f4e-a9ea-97996515497c" />
 
 
 ## RESULT
